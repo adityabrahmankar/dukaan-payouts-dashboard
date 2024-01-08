@@ -1,5 +1,15 @@
+import { AnalyticsIcon } from "./components/icons/analytics";
+import { AppearanceIcon } from "./components/icons/appearance";
+import { AudienceIcon } from "./components/icons/audience";
+import { DeliveryIcon } from "./components/icons/delivery";
+import { DiscountsIcon } from "./components/icons/discounts";
 import { HomeIcon } from "./components/icons/home";
+import { MarketingIcon } from "./components/icons/marketing";
 import { OrdersIcon } from "./components/icons/orders";
+import { PayoutsIcon } from "./components/icons/payouts";
+import { PluginsIcon } from "./components/icons/plugins";
+import { ProductsIcon } from "./components/icons/products";
+import { ToolsIcon } from "./components/icons/tools";
 
 export const NavBarItems = [
   {
@@ -15,56 +25,51 @@ export const NavBarItems = [
   {
     name: "Products",
     href: "/",
-    icon: HomeIcon,
+    icon: ProductsIcon,
   },
   {
     name: "Delivery",
     href: "/",
-    icon: HomeIcon,
+    icon: DeliveryIcon,
   },
   {
     name: "Marketing",
     href: "/",
-    icon: HomeIcon,
-  },
-  {
-    name: "Home",
-    href: "/",
-    icon: HomeIcon,
+    icon: MarketingIcon,
   },
   {
     name: "Analytics",
     href: "/",
-    icon: HomeIcon,
+    icon: AnalyticsIcon,
   },
   {
     name: "Payouts",
-    href: "/",
-    icon: HomeIcon,
+    href: "/payouts",
+    icon: PayoutsIcon,
   },
   {
     name: "Tools",
     href: "/",
-    icon: HomeIcon,
+    icon: ToolsIcon,
   },
   {
     name: "Discounts",
     href: "/",
-    icon: HomeIcon,
+    icon: DiscountsIcon,
   },
   {
     name: "Audience",
     href: "/",
-    icon: HomeIcon,
+    icon: AudienceIcon,
   },
   {
     name: "Appearance",
     href: "/",
-    icon: HomeIcon,
+    icon: AppearanceIcon,
   },
   {
     name: "Plugins",
     href: "/",
-    icon: HomeIcon,
+    icon: PluginsIcon,
   },
 ];
