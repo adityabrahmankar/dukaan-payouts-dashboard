@@ -73,3 +73,66 @@ export const NavBarItems = [
     icon: PluginsIcon,
   },
 ];
+
+export const TransactionItems = [
+  {
+    order_id: "#281209",
+    order_date: "7 July 2023",
+    order_amount: "₹1,278.23",
+    transaction_fees: "₹22",
+  },
+  {
+    order_id: "#281209",
+    order_date: "7 July 2023",
+    order_amount: "₹1,278.23",
+    transaction_fees: "₹22",
+  },
+  {
+    order_id: "#281209",
+    order_date: "7 July 2023",
+    order_amount: "₹1,278.23",
+    transaction_fees: "₹22",
+  },
+  {
+    order_id: "#281209",
+    order_date: "7 July 2023",
+    order_amount: "₹1,278.23",
+    transaction_fees: "₹22",
+  },
+  {
+    order_id: "#281209",
+    order_date: "7 July 2023",
+    order_amount: "₹1,278.23",
+    transaction_fees: "₹22",
+  },
+  {
+    order_id: "#281209",
+    order_date: "7 July 2023",
+    order_amount: "₹1,278.23",
+    transaction_fees: "₹22",
+  },
+  {
+    order_id: "#281209",
+    order_date: "7 July 2023",
+    order_amount: "₹1,278.23",
+    transaction_fees: "₹22",
+  },
+  {
+    order_id: "#281209",
+    order_date: "7 July 2023",
+    order_amount: "₹1,278.23",
+    transaction_fees: "₹22",
+  },
+  {
+    order_id: "#281209",
+    order_date: "7 July 2023",
+    order_amount: "₹1,278.23",
+    transaction_fees: "₹22",
+  },
+  {
+    order_id: "#281209",
+    order_date: "7 July 2023",
+    order_amount: "₹1,278.23",
+    transaction_fees: "₹22",
+  },
+];

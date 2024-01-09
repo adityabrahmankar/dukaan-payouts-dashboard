@@ -1,18 +1,16 @@
-"use client"
-
 import { NavBarItems } from '@/constants'
-import Image from 'next/image'
-import { ChevronDownIcon } from './icons/chevron-down'
-import { usePathname } from 'next/navigation'
 import { cn } from '@/lib/utils'
+import Image from 'next/image'
+// import { usePathname } from 'next/navigation'
+import { ChevronDownIcon } from './icons/chevron-down'
 import { WalletIcon } from './icons/wallet'
 
 type Props = {}
 
 const Navbar = (props: Props) => {
-    const pathname = usePathname()
+    // const pathname = usePathname()
 
-    console.log(pathname)
+    const pathname = '/payouts'
 
     return (
         <div className='h-full flex flex-col justify-between items-center gap-4' >
@@ -23,7 +21,7 @@ const Navbar = (props: Props) => {
                         <div className='text-white text-[16px] font-[500]'>Nishyan</div>
                         <div className='text-white/80 underline text-[13px] font-[400]'>Visit Store</div>
                     </div>
-                    <div><ChevronDownIcon /></div>
+                    <div><ChevronDownIcon className='' /></div>
                 </div>
                 <div className='flex flex-col flex-1 gap-1'>
                     {NavBarItems.map((item) => (
@@ -39,7 +37,7 @@ const Navbar = (props: Props) => {
             <div className='w-full px-3 py-[6px] bg-[#353C53] rounded-[4px]'>
                 <div className='flex flex-row items-center gap-3 '>
                     <div className='bg-white/10 p-[6px] rounded-[4px]'>
-                    <WalletIcon className='' />
+                        <WalletIcon className='' />
                     </div>
                     <div className='flex flex-col'>
                         <div className='text-[13px] text-white/80'>
