@@ -2,11 +2,17 @@
 
 The Dukaan Payouts Dashboard is a Next.js application designed to provide a comprehensive overview of payouts and transactions for Dukaan's users. It leverages modern web technologies such as React, TypeScript, and Tailwind CSS to deliver a responsive and accessible user experience.
 
-Mobile : !\[Mobile Pagespeed\](public/images/mobile-pagespeed.png)
+Mobile :
+ 
+![Mobile Pagespeed](/public/images/mobile-pagespeed.png)
 
-Desktop: !\[Desktop Pagespeed\](public/images/adesktop-pagespeed.png)\
-\
-Area of Improvement: !\[Area of Improvement\](public/images/area-of-improvement.png)
+Desktop: 
+
+![Desktop Pagespeed](public/images/desktop-pagespeed.png)
+
+Area of Improvement: 
+
+![Area of Improvement](public/images/area-of-improvement.png)
 
 ## Features
 
